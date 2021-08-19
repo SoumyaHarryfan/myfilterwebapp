@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+#my_first{
+    color: burlywood;
+    background-color: cadetblue;
+    box-shadow: 5px 5px 5px lightcoral;
+}
+#my_second{
+    color: magenta;
+    background-color: mediumpurple;
+    box-shadow: 5px 5px 5px navajowhite;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px rebeccapurple;}
+    to{box-shadow: 1px 1px 38px lightgreen;}
+}
